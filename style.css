@@ -3,5 +3,33 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+font-family: 'Work Sans', sans-serif}
+
+
+header{
+    background: rgba(255,144,14,0.10);
+    padding:50px 240px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color:yellowgreen
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+nav li a{
+text-decoration: none;
+color: tomato;
 }
