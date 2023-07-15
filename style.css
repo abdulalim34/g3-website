@@ -6,7 +6,13 @@
 font-family: 'Work Sans', sans-serif}
 
 .btn-primary{
-    
+    border-radius: 8px;
+    color: #fff;
+    background-color: #ff900b;
+    padding: 20px 25px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: 0;
 }
 header{
     background: rgba(255,144,14,0.10);
@@ -48,6 +54,27 @@ color: tomato;
 .banner-description{
     color:#727272
 }
-.btn-primary{
+.banner img{
+    margin-top: 30px;
+    width: 100%;
+}
+@media (max-width:576px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+@media (min-width:576px) and (max-width:992px) {
+   
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
 
 }
