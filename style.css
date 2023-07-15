@@ -58,6 +58,36 @@ color: tomato;
     margin-top: 30px;
     width: 100%;
 }
+.span-one{
+    color: lightgrey;
+
+}
+.span-two{
+    color: #ff900b;
+}
+
+
+main{
+    width: 75%;
+    
+}
+
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
 @media (max-width:576px) {
     header{
         padding: 20px;
@@ -67,6 +97,7 @@ color: tomato;
         flex-direction: column;
     }
     
+
 }
 @media (min-width:576px) and (max-width:992px) {
    
