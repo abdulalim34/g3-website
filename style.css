@@ -5,6 +5,9 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif}
 
+.text-light-gray{
+    color: #727272;
+}
 .btn-primary{
     border-radius: 8px;
     color: #fff;
@@ -23,7 +26,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.section-title{
     font-size: 3rem;
     font-weight: 800;
     color:yellowgreen
@@ -69,6 +72,7 @@ color: tomato;
 
 main{
     width: 75%;
+    margin: 70px auto;
     
 }
 
@@ -87,14 +91,41 @@ main{
     align-items: center;
     margin-left: 70px;
 }
+.architect{
+    display: flex;
+}
+.feature-lefl{
+
+    display: flex;
+    align-items: center;
+    margin-left: 70px; 
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 10px;
+    border: 2px solid turquoise;
+    padding: 5px;
+    text-align: center;
+
+}
+.facts-card-container.card-start{
+    font-size: 3rem;
+    color: #424242;
+}
 
 @media (max-width:576px) {
     header{
         padding: 20px;
     
     }
-    nav{
+    nav,.team-container{
         flex-direction: column;
+    }
+    .team-image-container{
+        grid-template-columns: 1fr ;
     }
     
 
